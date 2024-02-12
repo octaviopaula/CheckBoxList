@@ -1,11 +1,30 @@
-# Sample Snack app
+# Lista de Itens com CheckBox em React Native
 
-Open the `App.js` file to start writing some code. You can preview the changes directly on your phone or tablet by scanning the **QR code** or use the iOS or Android emulators. When you're done, click **Save** and share the link!
+Este é um aplicativo simples em React Native que demonstra como criar uma lista de itens com caixas de seleção (CheckBox) e acompanhar os itens selecionados.
 
-When you're ready to see everything that Expo provides (or if you want to use your own editor) you can **Download** your project and use it with [expo-cli](https://docs.expo.io/get-started/installation).
+## Funcionalidades
 
-All projects created in Snack are publicly available, so you can easily share the link to this project via link, or embed it on a web page with the `<>` button.
+- Exibe uma lista de itens com caixas de seleção ao lado de cada item.
+- Permite ao usuário selecionar e deselecionar os itens.
+- Mantém uma lista separada para mostrar os itens selecionados.
 
-If you're having problems, you can tweet to us [@expo](https://twitter.com/expo) or ask in our [forums](https://forums.expo.io/c/snack).
+## Como Usar
 
-Snack is Open Source. You can find the code on the [GitHub repo](https://github.com/expo/snack).
+1. Clone o repositório para o seu ambiente local.
+2. Certifique-se de ter o ambiente de desenvolvimento React Native configurado em sua máquina.
+3. Execute o comando `npm install` para instalar as dependências do projeto.
+4. Execute o aplicativo em um dispositivo ou emulador usando `npx react-native run-android` ou `npx react-native run-ios`.
+5. Interaja com o aplicativo selecionando e desselecionando os itens da lista.
+
+## Componentes Principais
+
+- `App.js`: Este arquivo contém a lógica principal do aplicativo, incluindo a renderização das listas de itens e a manipulação das caixas de seleção.
+- `styles.js`: Este arquivo contém os estilos CSS para os componentes do aplicativo.
+
+## Contribuição
+
+Contribuições são bem-vindas! Sinta-se à vontade para abrir um pull request ou relatar um problema.
+
+## Licença
+
+Este projeto é licenciado sob a [Licença MIT](LICENSE).
